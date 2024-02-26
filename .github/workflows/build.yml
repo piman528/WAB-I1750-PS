@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: 'musashino205/openwrt'
-          ref: 'v23.05.2'
+          ref: 'devadd/wab'
           path: openwrt
 
       - name: Install feeds
